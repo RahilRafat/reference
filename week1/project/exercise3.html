@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <style>
+        /* styles.css */
+
+        body {
+            margin: 0; /* Remove default margin */
+            font-family: Arial, sans-serif; /* Specify a font */
+        }
+
+        .header {
+            background-color: blanchedalmond; /* Background color for header */
+            padding: 10px; /* Padding for header content */
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space items evenly */
+        }
+
+        .circular-image {
+            border-radius: 50%; /* Makes the image circular */
+            height: 50px; /* Adjust height as needed */
+            width: 50px; /* Adjust width as needed */
+            margin-bottom: -13px; /* Adjust alignment */
+        }
+
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            display: flex; /* Use flexbox for navigation */
+        }
+
+        nav ul li {
+            margin-right: 20px; /* Adjust spacing between list items */
+        }
+
+        nav ul li a {
+            text-decoration: none; /* Remove underline from links */
+            color: black; /* Set link color */
+            font-weight: bold; /* Make text bold */
+            display: block; /* Block-level display for links */
+            padding: 10px; /* Padding around link text */
+        }
+
+        .main-content {
+            background-color: aliceblue; /* Background color for main content */
+            padding: 20px; /* Padding around main content */
+            display: flex; /* Use flexbox for layout */
+            align-items: center; /* Center items vertically */
+            justify-content: space-between; /* Space items evenly */
+            flex-wrap: wrap; /* Allow content to wrap */
+        }
+
+        .main-text {
+            max-width: 60%; /* Set maximum width for text content */
+        }
+
+        .main-image {
+            max-width: 30%; /* Set maximum width for image */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .column {
+        float: left;
+        width: 33.33%;
+        padding: 30px;
+        height: 300px; /* Should be removed. Only for demonstration */
+        box-sizing: border-box;
+        margin:auto;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="images/m logo.jpg" alt="logo" height="50px" width="50px" class="circular-image">
+            <h2 style="display: inline-block; margin-top: 10px; margin-left: 10px;">Bob Majir</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home &#9660;</a></li>
+                <li><a href="#Google Ads Services">Google ads Services &#9660;</a></li>
+                <li><a href="#Google Ads Resources">Google Ads Resources &#9660;</a></li>
+                <li><a href="#About me">About me</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div style="background-color: aliceblue">
+        <div class="main-content" >
+        <div class="main-text">
+            <h1>Your Google Ads</h1>
+            <h1>Campaigns perform better</h1>
+            <h1>With me behind the wheel.</h1>
+            <p>I'll get the most out of your Google Ads Campaigns or teach you the intricacies so you can do it yourself!</p>
+            <input type="submit" value="I want to outsource Google Ads" style="background-color: rgb(17, 17, 90); margin-left: 50px; width: 400px; height: 40px; color: white; font-size: large;">
+        </div>
+        <img src="images/manpic.jpeg" alt="man pic" class="main-image" style=" margin-left:50px;">
+    </div>
+    <br><br>
+    
+    <h2 style="text-align: center;">Google Ads Services</h2>
+    <div class ="row" style="align-items: center;" >
+        <div class="column" style="background-color:antiquewhite ; width: 300px;height:300px ; margin-left: 25%;">
+        <b>Outsorce Google Ads</b>
+        <p>I get the most out of your Google Ads Campaigns.let me setup , manage and optimize your account .</p><br><br>
+        <input type="submit" value="I Want to know more" style="border: none; font-size: large; font-style: italic; ">
+        </div>
+
+    
+     
+    <div class="column" style="background-color:rgb(210, 237, 136) ; width: 300px;height:300px ; margin-left: 10px; ">
+        <b style="font-size: large; ">Google Ads Courses</b>
+        <p> Learn Proven Google Ads Strategies, technoloques , and clever hacks i use daily to grow my client's accounts!.</p><br><br>
+        <input type="submit" value="I Want to Learn Google Ads" style="border: none; font-size: large; font-style: italic; ">
+        </div>
+        <div class="column" style="background-color:paleturquoise ; width: 300px;height:300px ; margin-left: 10px;">
+            <b style="font-size: large; ">Google Ads Courses</b>
+            <p> Learn Proven Google Ads Strategies, technoloques , and clever hacks i use daily to grow my client's accounts!.</p><br><br>
+            <input type="submit" value="I Want to Learn Google Ads" style="border: none; font-size: large; font-style: italic; margin-left: 10px;">
+            </div>
+        
+    </div>
+
+   
+
+    <br><br><br>
+    <div style=" display: flex; align-items: center; margin-left: 350px;">
+        <div style="flex: 1;">
+            <p style="color: rgb(162, 159, 159); font-size: large; margin-left: 50px;">Work with me</p>
+            <p style="color: rgb(12, 12, 75); font-size: large; margin-left: 50px;">I Get The Most Out of it</p>
+            <p style="margin-left: 50px;">Let's talk about the results I can get for your business.<br> Free of jargon and without bullshit bingo</p>
+            <input type="submit" value="Get in touch" style="background-color: rgb(17, 17, 90); margin-left: 50px; width: 200px; height: 40px; color: white; font-size: large;">
+        </div>
+        <div style="flex: 1; text-align: center;">
+            <img src="./images/manback.jpg" alt="man back" style="height: 350px; width: 300px; margin-right: 350px;">
+        </div>
+    </div>
+    <div>
+        <div style="background-color: antiquewhite;text-align: center;">
+            <p style="color: rgb(17, 17, 94); font-size: large; ">Ready to grow</p>
+            <p> Let's talk about the results I can get for your business . Free of jargon and Without Bullshit</p>
+            <input type="submit" value="Get in touch" style="background-color: rgb(17, 17, 90); margin-left: 50px; width: 200px; height: 40px; color: white; font-size: large;">
+        </div>
+
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <style>
+        /* Reset default list styles */
+        nav {
+            margin-bottom: 20px; /* Add margin between nav sections */
+        }
+
+        /* Style for the first navigation bar */
+        nav.nav-top {
+            background-color: #131314; /* Background color of the first navigation bar */
+        }
+
+        /* Style for the second navigation bar */
+        nav.nav-bottom {
+            background-color: #1a1a1b; /* Background color of the second navigation bar */
+            color: white; /* Text color for links in the second navigation bar */
+        }
+
+        /* Style each navigation item */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline; /* Display items horizontally */
+        }
+
+        /* Style anchor tags (links) within navigation items */
+        nav ul li a {
+            display: inline-block; /* Display as block element to add padding and margins */
+            padding: 10px 20px; /* Padding around text */
+            color: white; /* Text color */
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        /* Change color of links when hovered */
+        nav ul li a:hover {
+            background-color: #555; /* Darker background color on hover */
+        }
+
+        /* Style the search form */
+        nav form {
+            display: inline-block; /* Ensure form and nav items are aligned horizontally */
+            margin-left: 20px; /* Add spacing between navigation and search form */
+        }
+
+        nav form input[type="text"] {
+            padding: 8px; /* Adjust input field padding */
+            margin-right: 5px; /* Add spacing between input field and submit button */
+        }
+
+        nav form input[type="submit"] {
+            padding: 8px 15px; /* Adjust submit button padding */
+            background-color: #333; /* Button background color */
+            color: white; /* Button text color */
+            border: none; /* Remove default button border */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-top">
+        <ul>
+            <li><a href="#Tutorials">Tutorials &#9660;</a></li>
+            <li><a href="Exercises">Exercises &#9660;</a></li>
+            <li><a href="#Services">Services &#9660;</a></li>
+            <li>
+                <form action="/search" method="get">
+                    <label for="search">Search:</label>
+                    <input type="text" id="search" name="q" placeholder="Search...">
+                    <input type="submit" value="Search">
+                </form>
+            </li>
+        </ul>
+    </nav>
+    
+    <nav class="nav-bottom">
+        <ul>
+            <li><a href="#Python">Python</a></li>
+            <li><a href="#HTML">HTML</a></li>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#PHP">PHP</a></li>
+            <li><a href="#JS">JS</a></li>
+            <li><a href="#C++">C++</a></li>
+            <li><a href="#C#">C#</a></li>
+        </ul>
+    </nav>
+
+  <h1>Python Tutorial</h1>
+  
+  <input type="submit" value=" &#9664; Home" style="padding: 12px 15px; background-color: #555; color: white; border: none;" >
+  <input type="submit" value="  Next &#9656;" style="padding: 12px 20px; background-color: #555; color: white; border: none; margin-left: 1700px;">
+  <div style="background-color: mediumaquamarine; margin-top: 10px;"> 
+
+  
+  <b>Learn Python</b>
+  <br><p>Python is a popular programming language.</p>
+  <br><p>Python can be used on a server to create web applications.</p>
+
+  <input type="submit" value="Start Learnin Python Now " style="padding: 20px 18px; background-color: mediumaquamarine; color: white;">
+
+</div>
+<hr>
+
+    <h2>Learning by Examples</h2>
+    <p>With our "Try it Yourself" editor, you can edit Python code and view the result.</p>
+
+<div style="background-color: mediumaquamarine; padding: 20px 10px; height: 150px;" >
+    <h2>Example</h2>
+    <code style="padding: 20px 20px ; background-color: whitesmoke ;color:#131314"> print("Hello, World!")</code>
+</div>
+<hr>
+<h2>Python File Handling</h2>
+<p>In our File Handling section you will learn how to open, read, write, and delete files.</p><br>
+<a href="#" style="color:#131314">Python File Handling</a>
+<hr>
+<h2>Python Database Handling</h2>
+<p>In our database section you will learn how to access and work with MySQL and MongoDB databases:</p><br>
+<a href="#" style="color: #131314;">Python MySQL Tutorial</a><br>
+<a href="#" style="color:#131314;">Python MongoDB Tutorial</a>
+
+
+
+
+
+</body>
+</html>
